@@ -1,0 +1,66 @@
+.contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-container label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container input[type="text"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .contact-container input[type="text"]:focus,
+  .contact-container input[type="email"]:focus,
+  .contact-container textarea:focus {
+    outline: none;
+    background-color: #ccc;
+  }
+  
+  .contact-container textarea {
+    resize: none;
+    min-height: 150px;
+  }
+  
+  .contact-container button[type="submit"] {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
